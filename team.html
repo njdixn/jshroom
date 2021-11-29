@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- 
+Author: Joy Dixon
+Date: 11/24/2021
+File Name: template.html -->
+
+<html lang="en">
+<head>
+	<title>Jshroom Art - Team</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> 
+</head>
+<body>
+
+	<div id="container">
+
+		<!-- Use the header area for the website name or logo -->
+		<header> 			
+			<a href="index.html"><img src="images/jshroomlogo.png"  alt="Jshroom Art Logo"></a>
+		</header>
+
+		<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="classes.html">Classes</a></li>
+				<li><a href="contact.html">Contact</a></li>				
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="team.html">Team Events</a></li>
+			</ul>
+		</nav>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+		
+
+			
+			<div id="form">
+			
+				<h2>Ready to bring your team together in a fun and creative way.</h2>
+			
+				<p> Contact us today to set up your clas(425) 422-1111, or complete the form below and we will contact you to discuss the details of your event.</p>
+				
+				<h2>Complete the form to select and schedule your team event.</h2>
+					
+				<form class="form-grid"> <!-- Start Form -->	
+					<fieldset>
+					
+						<legend>Customer Information</legend>
+						
+						<label for="fCName">Company Name:</label>
+						<input type="text" name="fCName" id="fCName" required>
+						
+						<label for="fName">Full Name:</label>
+						<input type="text" name="fName" id="fName" required>
+								
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email" required>
+							
+						<label for="phone">Phone:</label>
+						<input type="tel" id="phone" name="phone" required>
+						
+					</fieldset>	
+							
+					<fieldset>
+					
+						<legend>Team Events</legend>
+						
+						<label for="reference">What type of class are you Interested in for your team event?</label>
+						
+						<select name="reference" id="reference">
+							<option value="marshmallows">Making Marshmallows</option>
+							<option value="toffee">Making English Toffee
+							<option value="truffles<">Making Truffles</option>
+							<option value="cards<">Making Cards</option>
+							<option value="resin<">Working with Resin and Molds</option>
+						</select>
+						
+						<label for="date">Date for the event:</label>
+						<input type="date" id="date" name="date" required>
+						
+						<label for="number">Team Size:</label>
+						<input type="number" id="number" name="number" required>
+						
+					</fieldset> 
+							
+					<fieldset>
+					
+						<legend>Additional Information</legend>
+						<p>I would like more information about:</p>
+
+						<label for="resin"><input type="checkbox" name="interest" id="resin" value="resin">Resin</label>	
+
+						<label for="candy"><input type="checkbox" name="interest" id="candy" value="candy">Candy</label>		
+
+						<label for="cards"><input type="checkbox" name="interest" id="cards" value="cards">Cards</label>	
+						
+					</fieldset> 
+							
+					<fieldset>
+					
+						<legend>Referral Source</legend>
+						
+						<label for="reference">How did you find us?</label>
+						
+						<select name="reference" id="reference">
+							<option value="friend">Friend</option>
+							<option value="Internet Search">Internet Search</option>
+							<option value="social">Social Media</option>
+							<option value="other">Other</option>
+						</select>	
+
+						<label for="questions"> Questions?</label>
+						
+						<textarea id="questions" name="questions" rows="5" cols="30"></textarea>
+						
+					</fieldset>	
+							
+					<input type="submit" id="submit" value ="Submit" class="btn"> 
+							
+				</form>						
+		
+			</div>
+			
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy;Copyright 2021.  All Rights Reserved</p>
+			<p><a href="mailto:jodixn@comcast.net">jodixn@comcast.net</a></p>
+		</footer>
+		
+	</div>
+	
+</body>
+</html>
