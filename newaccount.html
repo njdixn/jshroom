@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- 
+Author: Joy Dixon
+Date: 7/22/2022
+File Name: template.html -->
+
+<html lang="en">
+	<head>
+		<title>Jshroom Art</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/nc.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> 
+	</head>
+
+	<body>
+		<div id="container">
+			<!-- Website name & logo -->
+			<header> 			
+				<a href="index.html"><img src="images/jshroomlogo.png"  alt="Jshroom Art Logo"></a>
+			</header>
+
+			<!-- nav area - hyperlinks to other pages -->
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li> 
+					<li><a href="classes.html">Classes</a></li>
+					<li><a href="newclasses.html">New Classes</a></li>					
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="schedule.html">Schedule</a></li>
+					<li><a href="team.html">Team Events</a></li>
+				</ul>
+			</nav>
+		</div>	
+		
+		<!-- Main content -->
+			<div id="page">
+				<h2>New Account Setup</h2>
+
+				<!-- Form for New Account Setup -->      
+				<form method="post" action="http://www.example.org/register">
+					<label for="username">Email Address:</label>
+					<input id="username" type="text">
+					
+					<div id="feedback"></div>
+						
+					<label for="password">Password:</label>
+					<input id="password" type="password">
+
+					<input class="button" type="submit" value="sign up">
+				</form>
+			</div>	
+				
+			<!-- JS for form for New Account Setup -->  
+			<script src="js/newclasses.js"></script>
+				
+</body>
+</html>
+
