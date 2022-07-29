@@ -178,50 +178,6 @@ main {
   text-align: left;
   line-height: 1.4em;}
 
-/* Example */
-#event a {
-  font-family: oswald, arial, sans-serif;
-  font-size: 120%;
-  text-transform: uppercase;
-  text-align: left;
-  line-height: 4.5em;
-  display: block; 
-  height: 120px; width: 100%;}
-#event img {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 10px;}
-#event a:hover, #sessions a:hover {color: #1fb684;}
-#sessions a {
-  font-family: oswald, arial, sans-serif;
-  font-size: 120%;}
-#sessions p {
-  margin-top: 2em;}
-#sessions ul {
-  border-left: 1px solid #999;
-  border-right: 1px solid #999;
-  padding: 0 20px 0 20px;
-  margin: 0 0 40px 0;}
-#sessions li {
-  list-style-type: none; 
-  padding: 20px 0 20px 0; 
-  background-color: #fff; 
-  border-top: 1px solid #d6d6d6;
-  text-align: left;}
-#sessions li:first-child {
-  border-top: none;
-  padding-top: 1.8em;}
-#sessions li .time {
-  display: inline-block;
-  width: 60px;}
-#details div {
-  text-align: left;
-  padding: 1.8em 0 0em 1;}
-#details p {
-  padding: 0;
-  margin: 0.8em 0 0 0;}
-	
 /* Style rules for form elements */
 fieldset {
 	margin-bottom: 2%;
