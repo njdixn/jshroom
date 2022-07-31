@@ -1,43 +1,92 @@
 {
-    "sew": [
+    "CA": [
         {
-            "time": "9:00am Tuesdays",
-            "title": "Introduction to Sewing"
+            "time": "9:00",
+            "title": "Intro to 3D Modeling"
         },
         {
-            "time": "11:00 Wednesdays",
-            "title": "Advanced Sewing Techniques"
-        },
-        {
-            "time": "1:00 Wednesdays",
-            "title": "Quilting Holiday Table Runners"
-        },
-       ],
-    "resin": [
-       {
-            "time": "11:00 Tuesdays",
-            "title": "Intoduction to Resin"
-        },
-        {
-            "time": "10:00 Wednesdays",
-            "title": "Create Jewlery with Resin"
+            "time": "10:00",
+            "title": "Circuit Hacking"
         },
         {
             "time": "11:30",
-            "title": "Resin Coasters and Containers"
+            "title": "Arduino Antics"
         },
-      ],
-    "crochet": [
+        {
+            "time": "1:00",
+            "title": "The Printed Lunch"
+        },
+        {
+            "time": "2:00",
+            "title": "Droning On"
+        },
+        {
+            "time": "3:00",
+            "title": "Brain Hacking"
+        },
+        {
+            "time": "4:30",
+            "title": "Make The Future"
+        }
+    ],
+    "TX": [
        {
-            "time": "9:00 Mondays",
-            "title": "Introduction to Crocheting"
+            "time": "9:00",
+            "title": "Make The Future"
         },
         {
-            "time": "11:00 Thursdays",
-            "title": "Intermediate Crocheting Techniques and Stitches"
+            "time": "10:00",
+            "title": "Circuit Hacking"
         },
         {
-            "time": "1:30 Thursdays",
-            "title": "Crocheting Snowflakes"
+            "time": "11:30",
+            "title": "Brain Hacking"
+        },
+        {
+            "time": "1:00",
+            "title": "The Printed Lunch"
+        },
+        {
+            "time": "2:00",
+            "title": "Droning On"
+        },
+        {
+            "time": "3:00",
+            "title": "Intro to 3D Modeling"
+        },
+        {
+            "time": "4:30",
+            "title": "Arduino Antics"
+        }
+    ],
+    "NY": [
+       {
+            "time": "9:00",
+            "title": "Arduino Antics"
+        },
+        {
+            "time": "10:00",
+            "title": "Brain Hacking"
+        },
+        {
+            "time": "11:30",
+            "title": "Intro to 3D Modeling"
+        },
+        {
+            "time": "1:00",
+            "title": "The Printed Lunch"
+        },
+        {
+            "time": "2:00",
+            "title": "Droning On"
+        },
+        {
+            "time": "3:00",
+            "title": "Circuit Hacking"
+        },
+        {
+            "time": "4:30",
+            "title": "Make The Future"
+        }
     ]
 }
