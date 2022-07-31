@@ -1,161 +1,79 @@
-<!DOCTYPE>
-<!-- 
-Author: Joy Dixon
-Mondified Date: 7/16/2022
-File Name: index.html -->
-
-<html lang="en">
-<head>
-	<title>JShroom Art</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> 
-</head>
-<body>
-
-	<div id="container">
-	
-
-
-		<!-- Use the header area for the website name or logo -->
-		<header> 
-			<a href="index.html"><img src="images/jshroomlogo.png"  alt="Jshroom Art Logo"></a>
-		</header>
-		
-
-		<!-- Use the nav area to add hyperlinks to other pages within the website -->
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li> 
-				<li><a href="classes.html">Classes</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="newclasses.html">New Classes</a></li>	
-				<li><a href="i-schedule.html">I-schedule</a></li>
-				<li><a href="schedule.html">Schedule</a></li>
-				<li><a href="team.html">Team Events</a></li>
-				
-			</ul>
-		</nav>
-		
-		
-			
-		<h1>Jshroom Art Studio</h1>
-				
-		<!-- Add a javascript called add-conent.js -->
-		
-		
-		<!-- Use the main area to add the main content of the webpage -->
-		<main>
-			<div class="mobile">
-			
-				<p>Welcome to Jshroom Art. We offer classes in knitting, crocheting, sewing, photography, resin, candy making, card making. We offer team building events based on any of the classes.  Equipment, supplies and instructions are provided in the price per class.</p> 
-				
-				<p>Call Us Today to Get Started</p>
-				<p class="tel-link"><a href="tel:425.422.1111">(425) 422-1111</a></p>
-
-				<h4>Jshroom Hours</h4>
-				<ul class="hours"> 
-					<li>Mon-Thu: 9:00am-5:00pm</li> 
-					<li>Friday: 9:00am-3:00pm</li>
-					<li>Saturday: by apointment only</li>
-					<li>Sunday: Closed</li>
-				</ul>
-			</div>
-		
-			<div id="intro" class="tablet-desktop">
-			<script src="js/add-content.js"></script>
-				<p>Our mission is to help our clients meet their artistic goals. We offer classes in knitting, crocheting, sewing, photography, resin, candy making, card making, lathe work. We offer team building events based on any of the classes.  Equipment, supplies and instructions are provided in the price per class.</p> 
-				
-   <title>JavaScript &amp; jQuery - Chapter 3: Functions, Methods &amp; Objects - Example</title>
-    <link rel="stylesheet" href="css/c03.css" />
-  
-    <title>JavaScript &amp; jQuery - Chapter 3: Functions, Methods &amp; Objects - Example</title>
-    <link rel="stylesheet" href="css/c03.css" />
-  </head>
-  <html>
+<!DOCTYPE html>
+<html>
   <head>
-    <title>JavaScript &amp; jQuery - Chapter 3: Functions, Methods &amp; Objects - Example</title>
-    <link rel="stylesheet" href="css/c03.css" />
-  
-    <h1></h1>
-    <div id="info">
-      <h2>15% off any class booked by the offer expiration date.</h2>
-      <div id="hotelName"></div>
-	  <div id="roomRate"></div>
-	  <div id="specialRate"></div>
-      <div id="offerEnds"></div>
-    </div>
-    <script src="js/discount.js"></script>
- 
+    <title>JavaScript &amp; jQuery - Chapter 8: Ajax &amp; JSON</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+  </head>
+  <body>
+    <h1 id="header"><a href="../index.html">JavaScript &amp; jQuery</a></h1>
+    <h2>Chapter 8: Ajax &amp; JSON</h2>
+    <p><strong>* Please note</strong>: some of these examples will only work on a web server<br />(they will not run on a desktop or laptop unless you are running them through a web server).</p>
+    <table>
+      <tr><td colspan="4">You can try all code on the book website <a href="http://javascriptbook.com/code">javascriptbook.com/code</a></td></tr>
+      <tr>
+        <td>1 *</td>
+        <td><strong>Loading HTML</strong></td>
+        <td><a href="data-html.html">data-html.html</a></td>
+        <td><a href="js/data-html.js">data-html.js</a></td>
+      </tr>
+      <tr>
+        <td>2 *</td>
+        <td><strong>Loading XML</strong></td>
+        <td><a href="data-xml.html">data-xml.html</a></td>
+        <td><a href="js/data-xml.js">data-xml.js</a></td>
+      </tr>
+      <tr>
+        <td>3 *</td>
+        <td><strong>Loading JSON</strong></td>
+        <td><a href="data-json.html">data-json.html</a></td>
+        <td><a href="js/data-json.js">data-json.js</a></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><strong>JSONP</strong></td>
+        <td><a href="data-jsonp.html">data-jsonp.html</a></td>
+        <td><a href="js/data-jsonp.js">data-jsonp.js</a></td>
+      </tr>
+      <tr>
+        <td>5 **</td>
+        <td><strong>jQuery .load()</strong></td>
+        <td><a href="jq-load.html">jq-load.html</a></td>
+        <td><a href="js/jq-load.js">jq-load.js</a></td>
+      </tr>
+      <tr>
+        <td>6 ***</td>
+        <td><strong>jQuery $.get()</strong></td>
+        <td><a href="jq-get.html">jq-get.html</a></td>
+        <td><a href="js/jq-get.js">jq-get.js</a></td>
+      </tr>
+      <tr>
+        <td>7 ***</td>
+        <td><strong>jQuery $.post()</strong></td>
+        <td><a href="jq-post.html">jq-post.html</a></td>
+        <td><a href="js/jq-post.js">jq-post.js</a></td>
+      </tr>
+      <tr>
+        <td>8 **</td>
+        <td><strong>jQuery $.getJSON()</strong></td>
+        <td><a href="jq-getJSON.html">jq-getjson.html</a></td>
+        <td><a href="js/jq-getJSON.js">jq-getjson.js</a></td>
+      </tr>
+      <tr>
+        <td>9 **</td>
+        <td><strong>jQuery $.ajax()</strong></td>
+        <td><a href="jq-ajax.html">jq-ajax.html</a></td>
+        <td><a href="js/jq-ajax.js">jq-ajax.js</a></td>
+      </tr>
+      <tr>
+        <td>10 **</td>
+        <td><strong>Example</strong></td>
+        <td><a href="example.html">example.html</a></td>
+        <td><a href="js/example.js">example.js</a></td>
+      </tr>
+      <tr><td>*</td><td colspan="3">If running locally, comment out checks for the server status</td></tr>
+      <tr><td>**</td><td colspan="3">Needs to be run on a web server</td></tr>
+      <tr><td>***</td><td colspan="3">requires PHP files supplied with download, which require a server</td></tr>
+      <tr><td colspan="4">You can try all code on the book website <a href="http://javascriptbook.com/code">javascriptbook.com/code</a></td></tr>
+    </table>
+  </body>
 </html>
-				<p>Contact us today to set up your class. (425) 422-1111</p>
-			
-			</div>
-			
-			<div class="grid">
-				
-				<figure class="frame">
-					<a href="classes.html"><img src="images/knitting.jpg" alt="knitting needle"></a>
-					<figcaption class="pic-text">Knitting</figcaption>
-				</figure> 
-				
-				<figure class="frame">
-					<a href="classes.html"><img src="images/crocheting.jpg" alt="crochet hook"></a>
-					<figcaption class="pic-text">Crocheting</figcaption>
-				</figure>
-							
-				<figure class="frame">
-					<a href= "classes.html"><img src="images/sewing.jpg" alt="person sewing"></a>
-					<figcaption class="pic-text">Sewing</figcaption>
-				</figure>	
-				
-				<figure class="frame">
-					<a href= "classes.html"><img src="images/resin.jpg" alt="resin art"></a>
-					<figcaption class="pic-text">Resin</figcaption>
-				</figure>
-
-			</div>
-			
-			<div class="grid2">			
-
-				<figure class="frame">
-					<a href= "classes.html"><img src="images/photography.jpg" alt="Person taking a picture"></a>
-					<figcaption class="pic-text">Photography</figcaption>
-				</figure>	
-
-				<figure class="frame">
-					<a href= "classes.html"><img src="images/candy.jpg" alt="Making candy"></a>
-					<figcaption class="pic-text">Candy Making</figcaption>
-				</figure>	
-
-				<figure class="frame">
-					<a href= "classes.html"><img src="images/cards.jpg" alt="Card Design"></a>
-					<figcaption class="pic-text">Card Design</figcaption>
-				</figure>					
-
-				<figure class="frame">
-					<a href= "classes.html"><img src="images/lathe.jpg" alt="Creation of a candle stick"></a>
-					<figcaption class="pic-text">Lathe Creations</figcaption>
-				</figure>	
-				
-			</div> 
-						
-		</main>
-		
-
-	
-		<!-- Use the footer area to add webpage footer content -->
-		<footer>
-			<script SCR="js/add-content.js"></script>
-			<p>&copy;Copyright 2022.  All Rights Reserved</p>
-			<p><a href="mailto:jodixn@comcast.net">Contact us</a></p>
-		</footer>
-		
-	</div>
-
-</body>
