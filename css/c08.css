@@ -1,42 +1,7 @@
-/* JShroom Stylesheet */
+/* The Maker Bus Stylesheet */
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:700,400);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-/* CSS Reset */
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
-/*Style rules for body and images */
-body {
-	background-color: #000;
-}
-
-img {
-	max-width: 100%;
-	display: block;
-}
-/* Style rules for mobile viewport */
-
-/* Style rule for box sizing applies to all elements */
-*{
-	box-sizing: border-box; 
-}
-
-/* Style rule for  header */
-header {
-	top: 0;
-	background-color: #000; 
-	height: 200px;
-}
-
-header img {
-	margin: 0 auto;
-	margin-bottom: 2%;
-}
 
 body {
   background-color: #fff;
@@ -77,32 +42,18 @@ h3 {
   color: #3fbb8a; 
   font-family: oswald, arial, sans-serif;}
 
-/* Style rules for navigation area */
 nav {
-	padding: 1%;
-	margin-bottom: 1%;
-}
-	
-nav ul {
-	list-style-type: none;
-	text-align: center;
-}
-
-nav li {
-	font-size: 1.5em;
-	font-family: 'Outfit', sans-serif;
-}
-
-nav li:first-child {
-	border-top: none;
-}
-
-nav li a {
-	display: block;
-	color: #fff;
-	padding: 0.5em 1em;
-	text-decoration: none;
-}
+  font-family: oswald, arial, sans-serif;
+  float: right; 
+  width: 600px;
+  padding-top: 30px;
+  font-size: 1.4em;
+  text-align: right;
+  text-transform: uppercase;}
+nav a {
+  padding-left: 30px;}
+nav a:hover, a.current {
+  color: #d71a00;}
 
 a {text-decoration: none; color: #000;}
 
@@ -175,9 +126,9 @@ input[type=submit]:hover {
 #rates {padding: 50px 100px 50px 100px;}
 #reload {padding: 0 100px 0 100px;}
 #rates, #reload {text-align: left;}
-.Sew {background-image: url('../img/au.png');}
-.Resin {background-image: url('../img/gb.png');}
-.crochet {background-image: url('../img/us.png');}
+.AU {background-image: url('../img/au.png');}
+.UK {background-image: url('../img/gb.png');}
+.US {background-image: url('../img/us.png');}
 
 
 /* Example */
