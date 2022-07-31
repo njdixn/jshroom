@@ -1,85 +1,47 @@
 <!DOCTYPE html>
-<!-- 
-Author: Joy Dixon
-Date: 7/22/2022
-File Name: i-schedule.html -->
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 8: Ajax &amp; JSON - Example</title>
+    <link rel="stylesheet" href="css/c08.css" />
+  </head>
+  <body>
 
-<html lang="en">
-<head>
-	<title>Jshroom Art</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> 
-</head>
-<body>
+    <header>
+      <h1>THE MAKER BUS</h1>
+      <nav>
+        <a href="jq-load.html">HOME</a>
+        <a href="jq-load2.html">ROUTE</a>
+        <a href="jq-load3.html">TOYS</a>
+        <a href="example.html" class="current">TIMETABLE</a>
+      </nav>
+    </header>
 
-	<div id="container">
+    <section id="content">
+      <div id="container">
+        <h2>Roll up! Roll up! It's the maker bus...</h2>
 
-		<!-- Use the header area for the website name or logo -->
-		<header> 			
-			<a href="index.html"><img src="images/jshroomlogo.png"  alt="Jshroom Art Logo"></a>
-		</header>
+        <div class="third">
+          <div id="event">
+            <a id="ca" href="ca.html"><img src="img/map-ca.png" alt="San Francisco" />San Francisco, CA</a>
+            <a id="tx" href="tx.html"><img src="img/map-tx.png" alt="Austin, TX" />Austin, TX</a>
+            <a id="ny" href="ny.html"><img src="img/map-ny.png" alt="New York, NY" />New York, NY</a>
+          </div>
+        </div>
+        <div class="third">
+          <div id="sessions">
+            <p>Select an event from the left</p>
+          </div>
+        </div>
+        <div class="third">
+          <div id="details"></div>
+        </div>
 
-		<!-- Use the nav area to add hyperlinks to other pages within the website -->
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li> 
-				<li><a href="classes.html">Classes</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="newclasses.html">New Classes</a></li>	
-				<li><a href="i-schedule.html">I-schedule</a></li>
-				<li><a href="schedule.html">Schedule</a></li>
-				<li><a href="team.html">Team Events</a></li>
-			</ul>
-		</nav>
-		
-		<!-- Use the main area to add the main content of the webpage -->
-		<main>
-			<div id="intro">
-				<section id="content">
-				
-				  <div id="container">
-				  
-					<h2>Get your creativity flowing... </h2>
-
-					<div class="third">
-					  <div id="event">
-						<a id="sewing" href="sewing.html"><img src="images/sewing-sm.jpg" alt="Sewing" />Sewing</a>
-						<a id="resin" href="resin.html"><img src="images/resin.jpg" alt="Resin" />Resin</a>
-						<a id="crochet" href="crochet.html"><img src="images/crocheting-sm.jpg" alt="Crocheting" />Crocheting</a>
-					  </div>
-					</div>
-					<div class="third">
-					  <div id="sessions">
-						<p>Select a class</p>
-					  </div>
-					</div>
-					<div class="third">
-					  <div id="details"></div>
-					</div>
-
-				  </div><!-- #container -->
-				</section><!-- #content -->
+      </div><!-- #container -->
+    </section><!-- #content -->
 
 
-				<script src="js/jquery-1.11.0.min.js"></script>
-				<script src="js/example.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/example.js"></script>
 
-			</div>
-		</main>
-	
-		<!-- Use the footer area to add webpage footer content -->
-		<footer>
-			<p>&copy;Copyright 2022.  All Rights Reserved</p>
-			<p><a href="mailto:jodixn@comcast.net">Contact us</a></p>
-		</footer>
-		
-	</div>
-
-</body>
+  </body>
 </html>
