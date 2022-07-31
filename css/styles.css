@@ -309,7 +309,7 @@ footer a {
 
 	/* Tablet Viewport: Style rules for table */
 	table {
-		border: 1px solid #000;
+		border: 1px solid #fff;
 		border-collapse: collapse; 
 		margin: 0 auto; 
 		width: 100%;
@@ -328,13 +328,18 @@ footer a {
 	} 
 	
 	th {
-		background-color: #000;
+		background-color: #00b050;
 		color: #fff;
 		font-size: 1.15em;
 	}
 	
 	tr:nth-child(odd) { 
 		background-color: #edfcf4;
+		color: #000;
+	}
+	tr:nth-child(even) { 
+		background-color: #fff;
+		color: #000;
 	}
 	
 	/* Tablet Viewport: Style rule for form element */	
@@ -531,7 +536,7 @@ input[type=submit]:hover {
   }
 
 
-/* Exchange rates 
+/* Exchange rates */
 #rates div {
   background-repeat:   no-repeat;
   background-position: left center;
@@ -541,7 +546,7 @@ input[type=submit]:hover {
 #rates, #reload {text-align: left;}
 .Sew {background-image: url('../img/au.png');}
 .Resin {background-image: url('../img/gb.png');}
-.crochet {background-image: url('../img/us.png');}*/
+.crochet {background-image: url('../img/us.png');}
 
 #event a {
   font-family: oswald, arial, sans-serif;
