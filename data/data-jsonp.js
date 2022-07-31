@@ -1,17 +1,17 @@
 showEvents({
   "events": [
     {
-      "location": "San Francisco, CA",
+      "location": "Sewing",
       "date": "May 1",
       "map": "img/map-ca.png"
     },
     {
-      "location": "Austin, TX",
+      "location": "Resin,
       "date": "May 15",
       "map": "img/map-tx.png"
     },
     {
-      "location": "New York, NY",
+      "location": "Crocheting",
       "date": "May 30",
       "map": "img/map-ny.png"
     }
