@@ -1,0 +1,43 @@
+{
+    "sew": [
+        {
+            "time": "9:00am Tuesdays",
+            "title": "Introduction to Sewing"
+        },
+        {
+            "time": "11:00 Wednesdays",
+            "title": "Advanced Sewing Techniques"
+        },
+        {
+            "time": "1:00 Wednesdays",
+            "title": "Quilting Holiday Table Runners"
+        },
+       ],
+    "resin": [
+       {
+            "time": "11:00 Tuesdays",
+            "title": "Intoduction to Resin"
+        },
+        {
+            "time": "10:00 Wednesdays",
+            "title": "Create Jewlery with Resin"
+        },
+        {
+            "time": "11:30 Wednesdays",
+            "title": "Resin Coasters and Containers"
+        },
+      ],
+    "crochet": [
+       {
+            "time": "9:00 Mondays",
+            "title": "Introduction to Crocheting"
+        },
+        {
+            "time": "11:00 Thursdays",
+            "title": "Intermediate Crocheting Techniques and Stitches"
+        },
+        {
+            "time": "1:30 Thursdays",
+            "title": "Crocheting Snowflakes"
+    ]
+}
