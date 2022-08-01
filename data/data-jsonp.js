@@ -1,19 +1,16 @@
 showEvents({
   "events": [
     {
-      "location": "San Francisco, CA",
-      "date": "May 1",
-      "map": "img/map-ca.png"
+      "classes": "Sewing",
+      "pic": "images/sewing-sm.jpg"
     },
     {
-      "location": "Austin, TX",
-      "date": "May 15",
-      "map": "img/map-tx.png"
+      "classes": "Resin",
+      "pic": "images/resin-sm.jpg"
     },
     {
-      "location": "New York, NY",
-      "date": "May 30",
-      "map": "img/map-ny.png"
+      "classes": "Crocheting",
+      "pic": "images/crocheting-sm.jpg"
     }
   ]
 });
