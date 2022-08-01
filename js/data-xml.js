@@ -13,23 +13,23 @@ xhr.onload = function() {              // When response has loaded
   var events = response.getElementsByTagName('event'); // Find <event> elements
 
   for (var i = 0; i < events.length; i++) {            // Loop through them
-    var container, image, location, city, newline;      // Declare variables
+    var container, image, classes, city, newline;      // Declare variables
     container = document.createElement('div');          // Create <div> container
     container.className = 'event';                      // Add class attribute
 
-    image = document.createElement('img');              // Add map image
-    image.setAttribute('src', getNodeValue(events[i], 'map'));
-    image.setAttribute('alt', getNodeValue(events[i], 'location'));
+    image = document.createElement('img');              // Add pic
+    image.setAttribute('src', getNodeValue(events[i], 'pic'));
+    image.setAttribute('alt', getNodeValue(events[i], 'classes'));
     container.appendChild(image);
 
-    location = document.createElement('p');             // Add location data
+    classes = document.createElement('p');             // Add classes data
     city = document.createElement('b');
     newline = document.createElement('br');
-    city.appendChild(document.createTextNode(getNodeValue(events[i], 'location')));
-    location.appendChild(newline);
-    location.insertBefore(city, newline);
-    location.appendChild(document.createTextNode(getNodeValue(events[i], 'date')));
-    container.appendChild(location);
+    city.appendChild(document.createTextNode(getNodeValue(events[i], 'classes')));
+    classes.appendChild(newline);
+    classes.insertBefore(city, newline);
+    classes.appendChild(document.createTextNode(getNodeValue(events[i], 'date')));
+    container.appendChild(classes);
 
     document.getElementById('content').appendChild(container);
   }
