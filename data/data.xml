@@ -2,14 +2,17 @@
 <events>
   <event>
     <location>Sewing</location>
+	<date>Aug</date>
     <map>images/sewing-sm.jpg</map>
   </event>
   <event>
     <location>Resin</location>
+	<date>Aug</date>
     <map>images/resin-sm.jpg</map>
   </event>
   <event>
     <location>Crocheting"</location>
+	<date>Aug</date>
     <map>images/crocheting-sm.jpg</map>
   </event>
 </events>
