@@ -17,7 +17,7 @@ xhr.onload = function() {              // When response has loaded
     container = document.createElement('div');          // Create <div> container
     container.className = 'event';                      // Add class attribute
 
-    image = document.createElement('img');              // Add map
+    image = document.createElement('images');              // Add map
     image.setAttribute('src', getNodeValue(events[i], 'map'));
     image.setAttribute('alt', getNodeValue(events[i], 'location'));
     container.appendChild(image);
