@@ -1,4 +1,4 @@
-{
+showEvents({
   "events": [
     {
       "location": "Sewing",
@@ -13,4 +13,4 @@
       "map": "images/crocheting-sm.jpg"
     }
   ]
-}
+});

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <events>
   <event>
-    <classes>Sewing</classes>
-    <pic>images/sewing-sm.jpg</pic>
+    <location>Sewing</location>
+    <map>images/sewing-sm.jpg</map>
   </event>
   <event>
-    <classes>Resin</classes>
-    <pic>images/resin-sm.jpg</pic>
+    <location>Resin</location>
+    <map>images/resin-sm.jpg</map>
   </event>
   <event>
-    <classes>Crocheting"</classes>
-    <pic>images/crocheting-sm.jpg</pic>
+    <location>Crocheting"</location>
+    <map>images/crocheting-sm.jpg</map>
   </event>
 </events>
