@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- 
+Author: Joy Dixon
+Date: 7/31/2022
+File Name: jqui.accordion.html -->
+
+<html lang="en">
+<head>
+	<title>Jshroom Art</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.min.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
+
+</head>
+<body>
+
+	<div id="container">
+
+		<!-- Use the header area for the website name or logo -->
+		<header> 			
+			<a href="index.html"><img src="images/jshroomlogo.png"  alt="Jshroom Art Logo"></a>
+		</header>
+
+		<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="classes.html">Classes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="newclasses.html">New Classes</a></li>	
+				<li><a href="i-schedule.html">I-schedule</a></li>
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="team.html">Team Events</a></li>
+			</ul>
+		</nav>
+    <main>
+    <h2>Classes</h2>
+    <div class="two-thirds">
+      <div id="prizes">
+        <h3>Knitting</h3>
+        <div>
+          <p>We start the two stitches used in knitting: Knit and Purl. Then comes simple knitting patterns to apply the two stitches. Below are some beginner projects we will start with hats, scarves and mittens.</p>
+        </div>
+		
+        <h3>Crocheting</h3>
+        <div>
+          <p>We start the crocheting classes with the types of stitches then move to patterns and other types of crocheting. Below are some the stitches to begin your learning process we'll concentrate on chain, single and double crochet stitches first.</p>
+        </div>
+		
+        <h3>Resin</h3>
+        <div>
+            <p>We have a wide verity of molds to choose from. Choose your colors and mix with the resin then pour in to the molds and add embellishments. Below are some the items you can create in the introduction class, coasters, a cutting board or earrings.</p>
+        </div>
+		
+        <h3>Sewing</h3>
+        <div>
+          <p>With the sewing classes, we'll start with the simple patterns and in subsequent classes move into more complex patterns and sewing types. Below are some the patterns to begin your learning process.  The classes will include aprons, blouses, and quilted table runners.</p>
+        </div>
+		
+        <h3>Photography</h3>
+        <div>
+          <p>To begin we will learn the different items on the camera. Then in other classes we'll work on different types of photos and lighting. Below are some the items you learn functions of the camera, subject and lighting, and special effects.</p>
+        </div>
+				
+        <h3>Candy Making</h3>
+        <div>
+          <p>This course is so yummy. We will being this set of courses with learning how to temper chocolate and the use of compound chocolates. Then we will make candy with and without molds. Below are some the candies you can create: english toffee, marshmallows, truffles and more.</p>
+        </div>
+						
+        <h3>Card Design</h3>
+        <div>
+          <p>We will being this set of courses with an introduction  to the different tools and how to use them. Then we will move on to making different types of cards using die-cuts, embossing and other techniques. Below are some the techniques you will use to design cards using die-cuts and presses, embossing machines, and stamping.</p>
+        </div>
+								
+        <h3>Wood Lathe work</h3>
+        <div>
+          <p>We will start group of classes with ways to be safe working with a lathe. Then we'll work on different types of tools and the cuts they make. Some the items you can create with a lathe are pens, candle holders and bowls.</p>
+        </div>
+		
+      </div><!-- #prizes -->
+    </div><!-- #two-thirds -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script>
+        $(function() {
+          $('#prizes').accordion();
+        });
+    </script>
+		</main>
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy;Copyright 2022.  All Rights Reserved</p>
+			<p><a href="mailto:jodixn@comcast.net">Contact us</a></p>
+		</footer>
+		
+		</div>
+
+	</body>
+</html>
