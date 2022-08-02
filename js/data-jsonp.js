@@ -4,9 +4,9 @@ function showEvents(data) {                           // Callback when JSON load
     // BUILD UP STRING WITH NEW CONTENT (could also use DOM manipulation)
     for (var i = 0; i < data.events.length; i++) {    // Loop through object
       newContent += '<div class="event">';
-      newContent += '<img src="' + data.events[i].pic + '" ';
-      newContent += 'alt="' + data.events[i].classes + '" />';
-      newContent += '<p><b>' + data.events[i].classes + '</b><br>';
+      newContent += '<img src="' + data.events[i].map + '" ';
+      newContent += 'alt="' + data.events[i].location + '" />';
+      newContent += '<p><b>' + data.events[i].location + '</b><br>';
       newContent += data.events[i].date + '</p>';
       newContent += '</div>';
     }

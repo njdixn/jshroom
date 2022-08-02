@@ -14,7 +14,7 @@ $(function() {                                    // When the DOM is ready
   });
 
   // FUNCTION THAT COLLECTS DATA FROM THE JSON FILE
-  function loadClasses() {                    // Declare function
+  function loadLocation() {                    // Declare function
     $.getJSON('data/example.json')              // Try to collect JSON data
     .done( function(data){                      // If successful
       times = data;                             // Store it in a variable
@@ -23,16 +23,16 @@ $(function() {                                    // When the DOM is ready
     });
   }
 
-  loadClasses();                              // Call the function
+  loadLocation();                              // Call the function
 
 
-  // CLICK ON THE EVENT TO LOAD the classes 
+  // CLICK ON THE EVENT TO LOAD the location 
   $('#content').on('click', '#event a', function(e) {  // User clicks on event
 
     e.preventDefault();                                // Prevent loading page
     var loc = this.id.toUpperCase();                   // Get value of id attr
 
-    var newContent = '';                               // Build up classes by
+    var newContent = '';                               // Build up location by
     for (var i = 0; i < times[loc].length; i++) {      // looping through events
       newContent += '<li><span class="time">' + times[loc][i].time + '</span>';
       newContent += '<a href="descriptions.html#';
