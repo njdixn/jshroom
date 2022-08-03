@@ -1,5 +1,5 @@
 {
-    "sewing": [
+    "CA": [
         {
             "time": "Mo 10:00am",
             "title": "Introduction to Sewing"
@@ -13,7 +13,7 @@
             "title": "Quilting Holiday Table Runners"
         },
     ],
-    "resin": [
+    "TX": [
        {
             "time": "Mo 12:00pm",
             "title": "Introduction to Resin"
@@ -27,7 +27,7 @@
             "title": "Resin Coasters and Containers"
         },
     ],
-    "crochting": [
+    "NY": [
        {
             "time": "Mo 2:00pm",
             "title": "Introduction to Crocheting"
