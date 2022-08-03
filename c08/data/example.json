@@ -1,0 +1,44 @@
+{
+    "CA": [
+        {
+            "time": "Mo 10:00am",
+            "title": "Introduction to Sewing"
+        },
+        {
+            "time": "Tu 10:00am",
+            "title": "Advanced Sewing Techniques"
+        },
+        {
+            "time": "We 10:00am",
+            "title": "Quilting Holiday Table Runners"
+        },
+    ],
+    "TX": [
+       {
+            "time": "Mo 12:00pm",
+            "title": "Introduction to Resin"
+        },
+        {
+            "time": "Tu 12:00pm",
+            "title": "Create Jewelry with Resin"
+        },
+        {
+            "time": "We 12:00pm",
+            "title": "Resin Coasters and Containers"
+        },
+    ],
+    "NY": [
+       {
+            "time": "Mo 2:00pm",
+            "title": "Introduction to Crocheting"
+        },
+        {
+            "time": "Tu 2:00pm",
+            "title": "Intermediate Crocheting Techniques"
+        },
+        {
+            "time": "We 2:00pm",
+            "title": "Crocheting Snowflakes"
+        },
+    ]
+}
